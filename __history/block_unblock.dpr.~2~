@@ -9,6 +9,5 @@ uses
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TTl_principal, Tl_principal);
   Application.Run;
 end.
