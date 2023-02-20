@@ -11,6 +11,7 @@ type
     RadioGroup: TRadioGroup;
     block_btn: TButton;
     unblock_btn: TButton;
+    Label1: TLabel;
     procedure block_btnClick(Sender: TObject);
     procedure unblock_btnClick(Sender: TObject);
   private

@@ -15,6 +15,16 @@ object Tl_principal: TTl_principal
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object Label1: TLabel
+    Left = 215
+    Top = 99
+    Width = 107
+    Height = 96
+    Caption = 
+      'Deixar o script rodar, N'#195'O APERTAR EM FECHAR, s'#243' depois de rodar' +
+      ' o ultimo comando "exit"'
+    WordWrap = True
+  end
   object RadioGroup: TRadioGroup
     Left = 40
     Top = 40
