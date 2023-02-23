@@ -11,7 +11,7 @@ type
     RadioGroup: TRadioGroup;
     block_btn: TButton;
     procedure block_btnClick(Sender: TObject);
-    procedure unblock_btnClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
   public
@@ -120,101 +120,9 @@ else if RadioGroup.ItemIndex = 17 then
     ShellExecute(0, 'open', PChar(Arquivo), nil, nil, SW_SHOWNORMAL);
   end
 end;
-
-
-
-procedure TTl_principal.unblock_btnClick(Sender: TObject);
+procedure TTl_principal.FormCreate(Sender: TObject);
 begin
-if RadioGroup.ItemIndex = 0 then
-  begin
-    Arquivo := 'C:\Program Files (x86)\Block_unblock\Desbloquear Sites\INTERATIVOA1.vbs';
-    ShellExecute(0, 'open', PChar(Arquivo), nil, nil, SW_SHOWNORMAL);
-  end
-else if RadioGroup.ItemIndex = 1 then
-  begin
-    Arquivo := 'C:\Program Files (x86)\Block_unblock\Desbloquear Sites\INTERATIVOA2.vbs';
-    ShellExecute(0, 'open', PChar(Arquivo), nil, nil, SW_SHOWNORMAL);
-  end
-else if RadioGroup.ItemIndex = 2 then
-  begin
-    Arquivo := 'C:\Program Files (x86)\Block_unblock\Desbloquear Sites\INTERATIVOA3.vbs';
-    ShellExecute(0, 'open', PChar(Arquivo), nil, nil, SW_SHOWNORMAL);
-  end
-else if RadioGroup.ItemIndex = 3 then
-  begin
-    Arquivo := 'C:\Program Files (x86)\Block_unblock\Desbloquear Sites\INTERATIVOA4.vbs';
-    ShellExecute(0, 'open', PChar(Arquivo), nil, nil, SW_SHOWNORMAL);
-  end
-else if RadioGroup.ItemIndex = 4 then
-  begin
-    Arquivo := 'C:\Program Files (x86)\Block_unblock\Desbloquear Sites\INTERATIVOA5.vbs';
-    ShellExecute(0, 'open', PChar(Arquivo), nil, nil, SW_SHOWNORMAL);
-  end
-else if RadioGroup.ItemIndex = 5 then
-  begin
-    Arquivo := 'C:\Program Files (x86)\Block_unblock\Desbloquear Sites\INTERATIVOA6.vbs';
-    ShellExecute(0, 'open', PChar(Arquivo), nil, nil, SW_SHOWNORMAL);
-  end
-else if RadioGroup.ItemIndex = 6 then
-  begin
-    Arquivo := 'C:\Program Files (x86)\Block_unblock\Desbloquear Sites\INTERATIVOA7.vbs';
-    ShellExecute(0, 'open', PChar(Arquivo), nil, nil, SW_SHOWNORMAL);
-  end
-else if RadioGroup.ItemIndex = 7 then
-  begin
-    Arquivo := 'C:\Program Files (x86)\Block_unblock\Desbloquear Sites\INTERATIVOB1.vbs';
-    ShellExecute(0, 'open', PChar(Arquivo), nil, nil, SW_SHOWNORMAL);
-  end
-else if RadioGroup.ItemIndex = 8 then
-  begin
-    Arquivo := 'C:\Program Files (x86)\Block_unblock\Desbloquear Sites\INTERATIVOB2.vbs';
-    ShellExecute(0, 'open', PChar(Arquivo), nil, nil, SW_SHOWNORMAL);
-  end
-else if RadioGroup.ItemIndex = 9 then
-  begin
-    Arquivo := 'C:\Program Files (x86)\Block_unblock\Desbloquear Sites\INTERATIVOB3.vbs';
-    ShellExecute(0, 'open', PChar(Arquivo), nil, nil, SW_SHOWNORMAL);
-  end
-else if RadioGroup.ItemIndex = 10 then
-  begin
-    Arquivo := 'C:\Program Files (x86)\Block_unblock\Desbloquear Sites\INTERATIVOB4.vbs';
-    ShellExecute(0, 'open', PChar(Arquivo), nil, nil, SW_SHOWNORMAL);
-  end
-else if RadioGroup.ItemIndex = 11 then
-  begin
-    Arquivo := 'C:\Program Files (x86)\Block_unblock\Desbloquear Sites\INTERATIVOB5.vbs';
-    ShellExecute(0, 'open', PChar(Arquivo), nil, nil, SW_SHOWNORMAL);
-  end
-else if RadioGroup.ItemIndex = 12 then
-  begin
-    Arquivo := 'C:\Program Files (x86)\Block_unblock\Desbloquear Sites\INTERATIVOB6.vbs';
-    ShellExecute(0, 'open', PChar(Arquivo), nil, nil, SW_SHOWNORMAL);
-  end
-else if RadioGroup.ItemIndex = 13 then
-  begin
-    Arquivo := 'C:\Program Files (x86)\Block_unblock\Desbloquear Sites\INTERATIVOB7.vbs';
-    ShellExecute(0, 'open', PChar(Arquivo), nil, nil, SW_SHOWNORMAL);
-  end
-else if RadioGroup.ItemIndex = 14 then
-  begin
-    Arquivo := 'C:\Program Files (x86)\Block_unblock\Desbloquear Sites\INTERATIVOB8.vbs';
-    ShellExecute(0, 'open', PChar(Arquivo), nil, nil, SW_SHOWNORMAL);
-  end
-else if RadioGroup.ItemIndex = 15 then
-  begin
-    Arquivo := 'C:\Program Files (x86)\Block_unblock\Desbloquear Sites\INTERATIVOC3.vbs';
-    ShellExecute(0, 'open', PChar(Arquivo), nil, nil, SW_SHOWNORMAL);
-  end
-else if RadioGroup.ItemIndex = 16 then
-  begin
-    Arquivo := 'C:\Program Files (x86)\Block_unblock\Desbloquear Sites\INTERATIVOC4.vbs';
-    ShellExecute(0, 'open', PChar(Arquivo), nil, nil, SW_SHOWNORMAL);
-  end
-else if RadioGroup.ItemIndex = 17 then
-  begin
-    Arquivo := 'C:\Program Files (x86)\Block_unblock\Desbloquear Sites\INTERATIVOC5.vbs';
-    ShellExecute(0, 'open', PChar(Arquivo), nil, nil, SW_SHOWNORMAL);
-  end
+RadioGroup.ItemIndex := 0
 end;
 
 end.
