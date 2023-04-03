@@ -3,8 +3,8 @@
 	<Transactions>
     <Transaction>2023/01/12 15:32:14.000.870,=C:\Users\rafae\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2023/02/16 07:30:11.000.373,=C:\Users\rafae\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/02/16 07:30:35.000.778,C:\Users\rafae\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\rafae\Desktop\Projetos\Delphi\Bloquear - Desbloquear sites v1.0\main.dfm</Transaction>
-    <Transaction>2023/02/16 07:30:35.000.778,C:\Users\rafae\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\rafae\Desktop\Projetos\Delphi\Bloquear - Desbloquear sites v1.0\main.pas</Transaction>
-    <Transaction>2023/02/16 07:31:32.000.814,C:\Users\rafae\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\rafae\Desktop\Projetos\Delphi\Bloquear - Desbloquear sites v1.0\block_unblock.dproj</Transaction>
+    <Transaction>2023/02/16 07:30:35.000.778,C:\Users\rafae\Desktop\Projetos\Delphi\Bloquear - Desbloquear sites v1.0\main.pas=C:\Users\rafae\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/16 07:30:35.000.778,C:\Users\rafae\Desktop\Projetos\Delphi\Bloquear - Desbloquear sites v1.0\main.dfm=C:\Users\rafae\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/02/16 07:31:32.000.814,C:\Users\rafae\Desktop\Projetos\Delphi\Bloquear - Desbloquear sites v1.0\block_unblock.dproj=C:\Users\rafae\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
   </Transactions>
 </BorlandProject>
